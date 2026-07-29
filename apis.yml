@@ -1,8 +1,30 @@
 aid: ivo
 name: Ivo
-description: 'Ivo is a company surfaced as a portfolio company of costanoa-ventures, uncork-capital and
-  added to the API Evangelist network as a stub for enrichment. Sector: legal-ai. This profile is a lead
-  awaiting the enrichment pipeline.'
+description: >-
+  Ivo (Ivo AI, Inc., formerly Latch) is an AI-powered contract intelligence
+  platform built for in-house legal teams at enterprises. Founded in 2022 and
+  headquartered in San Francisco, Ivo delivers three integrated products that
+  share one AI engine: Ivo Review (a Microsoft Word add-in that applies a
+  company's playbooks clause-by-clause to produce surgical redlines), Ivo
+  Assistant (an agentic AI for drafting, cross-contract Q&A, and legal research)
+  and Ivo Intelligence (an AI-native repository, powered by its AiRE engine,
+  that turns existing contract libraries into queryable business intelligence).
+  Customers include Uber, Shopify, IBM, Atlassian, Canva, Reddit and Pinterest.
+  Ivo is enterprise-only with custom pricing and no public developer API; it
+  publishes a canonical llms.txt, a Trust Center (SOC 2 Type II, ISO 27001:2022,
+  GDPR, CCPA), and a responsible-disclosure security.txt.
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://cdn.prod.website-files.com/65f4b30742f9be11e8959d5c/696ef34a6829192b4c87450e_OG%20Image%20-%20main.jpg
 url: https://raw.githubusercontent.com/api-evangelist/ivo/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -13,10 +35,17 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-19'
 tags:
 - Company
-- Legal Ai
+- Legal AI
+- Contract Review
+- Contract Intelligence
+- Legal Tech
+- Contract Lifecycle Management
+- Redlining
+- Enterprise
+- AI Agents
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -26,3 +55,36 @@ maintainers:
 common:
 - type: Website
   url: https://www.ivo.ai
+- type: Blog
+  url: https://www.ivo.ai/blog
+- type: Login
+  url: https://app.ivo.ai
+- type: Support
+  url: https://www.ivo.ai/contact-us
+- type: TermsOfService
+  url: https://www.ivo.ai/terms
+- type: PrivacyPolicy
+  url: https://www.ivo.ai/privacy
+- type: TrustCenter
+  url: https://trust.ivo.ai
+- type: Compliance
+  url: security/ivo-trust-center.yml
+- type: Conformance
+  url: conformance/ivo-conformance.yml
+- type: Security
+  url: https://trust.ivo.ai/resources?s=a7t7bsi1jpndd9qj122kha&name=responsible-disclosure-policy
+- type: VulnerabilityDisclosure
+  url: security/ivo-vulnerability-disclosure.yml
+- type: SecurityTxt
+  url: well-known/ivo-security.txt
+- type: WellKnown
+  url: well-known/ivo-well-known.yml
+- type: DomainSecurity
+  url: security/ivo-domain-security.yml
+- type: LLMsTxt
+  url: llms/ivo-llms.txt
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence

@@ -1,0 +1,5 @@
+Contact: mailto:disclosure@ivo.ai
+Expires: 2030-01-07T10:00:00Z
+Hiring: https://www.ivo.ai/careers
+Policy: https://trust.ivo.ai/resources?s=a7t7bsi1jpndd9qj122kha&name=responsible-disclosure-policy
+Preferred-Languages: en

@@ -1,0 +1,28 @@
+generated: '2026-07-19'
+method: searched
+source: live probes of /.well-known/ on ivo.ai hosts
+hosts:
+- host: https://www.ivo.ai
+  documents:
+  - path: /.well-known/security.txt
+    status: 404
+  - path: /.well-known/openid-configuration
+    status: 404
+  - path: /.well-known/oauth-authorization-server
+    status: 404
+  - path: /.well-known/api-catalog
+    status: 404
+  - path: /.well-known/ai-plugin.json
+    status: 404
+  - path: /llms.txt
+    status: 200
+    file: ../llms/ivo-llms.txt
+- host: https://trust.ivo.ai
+  documents:
+  - path: /.well-known/security.txt
+    status: 200
+    file: ivo-security.txt
+- host: https://app.ivo.ai
+  documents:
+  - path: /.well-known/security.txt
+    status: 404
