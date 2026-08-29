@@ -13,6 +13,17 @@ description: >-
   Ivo is enterprise-only with custom pricing and no public developer API; it
   publishes a canonical llms.txt, a Trust Center (SOC 2 Type II, ISO 27001:2022,
   GDPR, CCPA), and a responsible-disclosure security.txt.
+deliveryModel:
+  model: saas
+  open_source: false
+  commercial: true
+  callable_host: false
+  label: Hosted service · you call their endpoint
+  confidence: medium
+  source:
+  - pricing
+  generated: '2026-08-28'
+  method: derived
 accessModel:
   pricing: unknown
   onboarding: unknown
